@@ -1,0 +1,61 @@
+body {
+    width: 960px;
+    margin: auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.stretch {
+    background: #ffffff;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 108px;
+    border-bottom-style: solid;
+    border-width: 3px;
+    border-color: #cccccc;
+}
+nav {
+    background: #ffffff;
+    width: 100%;
+    position: relative;
+    height: 108px;
+    margin-bottom: 40px;
+}
+.name {
+    font-size: 36px;
+    padding: 36px;
+    float: left;
+    background: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+.navpara {
+    float: right;
+    padding: 47px;
+}
+section {
+    width: 650px;
+    background: #ffffff;
+}
+h1 {
+    padding: 20px;
+}
+#picofme {
+    width: 250px;
+    float: left;
+    height: 180px;
+    padding: 5px;
+}
+p {
+    padding: 29px;
+}
+aside {
+    float: right;
+    width: 270px;
+    background: #ffffff;
+    position: relative;
+    bottom: 334px;
+}
+h2 {
+    padding: 20px;
+}
