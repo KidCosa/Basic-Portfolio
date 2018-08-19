@@ -54,8 +54,60 @@ aside {
     width: 270px;
     background: #ffffff;
     position: relative;
-    bottom: 334px;
+    bottom: 353px;
+    padding-bottom: 50px;
 }
 h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
     padding: 20px;
+    font-size: 28px;
+}
+#github, #linkedin, #stackoverflow {
+    width: 80px;
+}
+.aboutme {
+    font-size: 36px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 20px;
+}
+#contactaside {
+    float: right;
+    width: 270px;
+    background: #ffffff;
+    position: relative;
+    bottom: 256px;
+    padding-bottom: 50px;
+}
+.imageplace {
+    float: left;
+    width: 250px;
+    height: 250px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+#portfoliosection::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#portaside {
+    float: right;
+    width: 270px;
+    background: #ffffff;
+    position: relative;
+    bottom: 896px;
+    padding-bottom: 50px;
+}
+footer {
+    background: #666666;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    border-top-style: solid;
+    border-width: 10px;
+    border-color: #4aaaa5;
 }
